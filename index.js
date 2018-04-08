@@ -1,6 +1,6 @@
 const app = "I don't do much."
 
-let kittens = ['Milo', 'Otis', 'Garfield'];
+const kittens = ['Milo', 'Otis', 'Garfield'];
 
 function destructivelyAppendKitten(name) {
   return kittens.push(name);

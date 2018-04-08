@@ -36,3 +36,8 @@ function removeFirstKitten() {
   n.shift();
   return n;
 }
+
+function destructivelyRemoveLastKitten() {
+  kittens.pop();
+  return kittens;
+}

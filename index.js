@@ -13,5 +13,3 @@ function destructivelyAppendKitten(name) {
   kittent.push(name);
   return kittent;
 }
-
-

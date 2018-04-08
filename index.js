@@ -30,3 +30,9 @@ function removeLastKitten() {
   n.pop();
   return n;
 }
+
+function removeFirstKitten() {
+  var n = [kittens];
+  n.slice(0);
+  return n;
+}

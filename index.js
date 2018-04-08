@@ -37,7 +37,7 @@ function removeFirstKitten() {
   return n;
 }
 
-function destructivelyRemoveLastKitten() {
-  kittens.pop();
+function destructivelyRemoveFirstKitten() {
+  kittens.shift();
   return kittens;
 }

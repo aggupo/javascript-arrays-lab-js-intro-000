@@ -6,9 +6,12 @@ var kittens = ['Milo', 'Otis', 'Garfield'];
 //   it('appends a kitten to the end of the kittens array', function() {
 //     destructivelyAppendKitten('Ralph')
 //     expect(window.kittens).toEqual(["Milo", "Otis", "Garfield", "Ralph"])
-// 
-//     
-fanction destructivelyAppendKitten(name) {
+//
+//
+
+function destructivelyAppendKitten(name) {
   kittent.push(name);
   return kittent;
 }
+
+

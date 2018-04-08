@@ -24,3 +24,8 @@ function prependKitten(name) {
   var n = [name, ...kittens];
   return n;
 }
+
+function removeLastKitten() {
+  var n = kittens.unshift(name);
+  return n;
+}
